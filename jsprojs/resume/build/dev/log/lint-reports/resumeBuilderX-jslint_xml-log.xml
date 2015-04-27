@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <jslint>
-	<file name="/Users/zen4s/git/portfolio/jsprojs/resume/public/js/resumeBuilderX.js">
+	<file name="/Users/zen4s/git/portfolio/jsprojs/resume/src/js/resumeBuilderX.js">
 		<issue line="14" char="0" reason="Identifier &apos;speed_of_light&apos; is not in camel case." evidence="var speed_of_light = 299792458;   //meters per second" severity="W" />
 		<issue line="19" char="0" reason="Identifier &apos;speed_of_light&apos; is not in camel case." evidence="var distance = speed_of_light * centimeters * nanosecond;" severity="W" />
 		<issue line="29" char="10" reason="You might be leaking a variable (s) here." evidence="var s2 = s = s[1].toUpperCase() + s.slice(2);" severity="W" />

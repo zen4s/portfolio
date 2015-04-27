@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <jslint>
-	<file name="/Users/zen4s/git/portfolio/jsprojs/resume/public/js/helper.js">
+	<file name="/Users/zen4s/git/portfolio/jsprojs/resume/src/js/helper.js">
 		<issue line="66" char="3" reason="Missing &quot;use strict&quot; statement." evidence="  $(&apos;button&apos;).click(function() {" severity="E" />
 		<issue line="78" char="3" reason="Missing &quot;use strict&quot; statement." evidence="  clickLocations.push(" severity="E" />
 		<issue line="106" char="3" reason="Missing &quot;use strict&quot; statement." evidence="  var locations;" severity="E" />

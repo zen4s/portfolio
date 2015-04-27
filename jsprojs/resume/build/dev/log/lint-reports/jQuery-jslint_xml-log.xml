@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <jslint>
-	<file name="/Users/zen4s/git/portfolio/jsprojs/resume/public/js/jQuery.js">
+	<file name="/Users/zen4s/git/portfolio/jsprojs/resume/src/js/jQuery.js">
 		<issue line="30" char="0" reason="Identifier &apos;core_strundefined&apos; is not in camel case." evidence="  core_strundefined = typeof undefined," severity="W" />
 		<issue line="47" char="0" reason="Identifier &apos;core_deletedIds&apos; is not in camel case." evidence="  core_deletedIds = []," severity="W" />
 		<issue line="49" char="0" reason="Identifier &apos;core_version&apos; is not in camel case." evidence="  core_version = &quot;2.0.3&quot;," severity="W" />
