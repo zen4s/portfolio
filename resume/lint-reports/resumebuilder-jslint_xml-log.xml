@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jslint>
+	<file name="/Users/zen4s/git/portfolio/resume/public/js/resumebuilder.js">
+		<issue line="39" char="2" reason="Missing semicolon." evidence="}" severity="W" />
+		<issue line="59" char="2" reason="Missing semicolon." evidence="}" severity="W" />
+	</file>
+</jslint>

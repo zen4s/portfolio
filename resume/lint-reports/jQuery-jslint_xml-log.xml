@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jslint>
+	<file name="/Users/zen4s/git/portfolio/resume/public/js/jQuery.js">
+		<issue line="209" char="16" reason="Use &apos;===&apos; to compare with &apos;null&apos;." evidence="    return num == null ?" severity="W" />
+		<issue line="313" char="37" reason="Use &apos;!==&apos; to compare with &apos;null&apos;." evidence="    if ( (options = arguments[ i ]) != null ) {" severity="W" />
+		<issue line="416" char="16" reason="Use &apos;!==&apos; to compare with &apos;null&apos;." evidence="    return obj != null &amp;&amp; obj === obj.window;" severity="W" />
+		<issue line="424" char="14" reason="Use &apos;===&apos; to compare with &apos;null&apos;." evidence="    if ( obj == null ) {" severity="W" />
+		<issue line="611" char="17" reason="Use &apos;===&apos; to compare with &apos;null&apos;." evidence="    return text == null ? &quot;&quot; : core_trim.call( text );" severity="W" />
+		<issue line="618" char="14" reason="Use &apos;!==&apos; to compare with &apos;null&apos;." evidence="    if ( arr != null ) {" severity="W" />
+		<issue line="633" char="16" reason="Use &apos;===&apos; to compare with &apos;null&apos;." evidence="    return arr == null ? -1 : core_indexOf.call( arr, elem, i );" severity="W" />
+		<issue line="688" char="20" reason="Use &apos;!==&apos; to compare with &apos;null&apos;." evidence="        if ( value != null ) {" severity="W" />
+		<issue line="698" char="20" reason="Use &apos;!==&apos; to compare with &apos;null&apos;." evidence="        if ( value != null ) {" severity="W" />
+		<issue line="745" char="18" reason="Use &apos;===&apos; to compare with &apos;null&apos;." evidence="      bulk = key == null;" severity="W" />
+		<issue line="1027" char="41" reason="Expected an assignment or function call and instead saw an expression." evidence="  arr[ preferredDoc.childNodes.length ].nodeType;" severity="W" />
+		<issue line="1381" char="14" reason="[&apos;ID&apos;] is better written in dot notation." evidence="    Expr.find[&quot;ID&quot;] = function( id, context ) {" severity="W" />
+		<issue line="1389" char="16" reason="[&apos;ID&apos;] is better written in dot notation." evidence="    Expr.filter[&quot;ID&quot;] = function( id ) {" severity="W" />
+		<issue line="1398" char="21" reason="[&apos;ID&apos;] is better written in dot notation." evidence="    delete Expr.find[&quot;ID&quot;];" severity="W" />
+		<issue line="1400" char="16" reason="[&apos;ID&apos;] is better written in dot notation." evidence="    Expr.filter[&quot;ID&quot;] =  function( id ) {" severity="W" />
+		<issue line="1410" char="12" reason="[&apos;TAG&apos;] is better written in dot notation." evidence="  Expr.find[&quot;TAG&quot;] = support.getElementsByTagName ?" severity="W" />
+		<issue line="1436" char="12" reason="[&apos;CLASS&apos;] is better written in dot notation." evidence="  Expr.find[&quot;CLASS&quot;] = support.getElementsByClassName &amp;&amp; function( className, context ) {" severity="W" />
+		<issue line="1852" char="21" reason="[&apos;CHILD&apos;] is better written in dot notation." evidence="      if ( matchExpr[&quot;CHILD&quot;].test( match[0] ) ) {" severity="W" />
+		<issue line="1902" char="21" reason="Use &apos;===&apos; to compare with &apos;null&apos;." evidence="        if ( result == null ) {" severity="W" />
+		<issue line="2153" char="25" reason="Expected an assignment or function call and instead saw an expression." evidence="        elem.parentNode.selectedIndex;" severity="W" />
+		<issue line="2175" char="27" reason="[&apos;empty&apos;] is better written in dot notation." evidence="      return !Expr.pseudos[&quot;empty&quot;]( elem );" severity="W" />
+		<issue line="2198" char="46" reason="Use &apos;===&apos; to compare with &apos;null&apos;." evidence="        ( (attr = elem.getAttribute(&quot;type&quot;)) == null || attr.toLowerCase() === elem.type );" severity="W" />
+		<issue line="2248" char="13" reason="[&apos;nth&apos;] is better written in dot notation." evidence="Expr.pseudos[&quot;nth&quot;] = Expr.pseudos[&quot;eq&quot;];" severity="W" />
+		<issue line="2248" char="35" reason="[&apos;eq&apos;] is better written in dot notation." evidence="Expr.pseudos[&quot;nth&quot;] = Expr.pseudos[&quot;eq&quot;];" severity="W" />
+		<issue line="2409" char="18" reason="Use &apos;!==&apos; to compare with &apos;null&apos;." evidence="    mapped = map != null;" severity="W" />
+		<issue line="2584" char="35" reason="Use &apos;!==&apos; to compare with &apos;null&apos;." evidence="        outermost = expandContext != null," severity="W" />
+		<issue line="2587" char="47" reason="[&apos;TAG&apos;] is better written in dot notation." evidence="        elems = seed || byElement &amp;&amp; Expr.find[&quot;TAG&quot;]( &quot;*&quot;, expandContext &amp;&amp; context.parentNode || context )," severity="W" />
+		<issue line="2589" char="51" reason="Use &apos;===&apos; to compare with &apos;null&apos;." evidence="        dirrunsUnique = (dirruns += contextBackup == null ? 1 : Math.random() || 0.1);" severity="W" />
+		<issue line="2598" char="33" reason="Use &apos;!==&apos; to compare with &apos;null&apos;." evidence="      for ( ; (elem = elems[i]) != null; i++ ) {" severity="W" />
+		<issue line="2724" char="30" reason="[&apos;ID&apos;] is better written in dot notation." evidence="        context = ( Expr.find[&quot;ID&quot;]( token.matches[0].replace(runescape, funescape), context ) || [] )[0];" severity="W" />
+		<issue line="2732" char="20" reason="[&apos;needsContext&apos;] is better written in dot notation." evidence="      i = matchExpr[&quot;needsContext&quot;].test( selector ) ? 0 : tokens.length;" severity="W" />
+		<issue line="2824" char="39" reason="Use &apos;===&apos; to compare with &apos;null&apos;." evidence="  return div.getAttribute(&quot;disabled&quot;) == null;" severity="W" />
+		<issue line="3086" char="22" reason="Use &apos;!==&apos; to compare with &apos;null&apos;." evidence="          return obj != null ? jQuery.extend( obj, promise ) : promise;" severity="W" />
+		<issue line="3269" char="40" reason="Use &apos;!==&apos; to compare with &apos;null&apos;." evidence="    jQuery.swap( body, body.style.zoom != null ? { zoom: 1 } : {}, function() {" severity="W" />
+		<issue line="3978" char="15" reason="Use &apos;===&apos; to compare with &apos;null&apos;." evidence="          ret == null ? &quot;&quot; : ret;" severity="W" />
+		<issue line="4000" char="16" reason="Use &apos;===&apos; to compare with &apos;null&apos;." evidence="      if ( val == null ) {" severity="W" />
+		<issue line="4006" char="24" reason="Use &apos;===&apos; to compare with &apos;null&apos;." evidence="          return value == null ? &quot;&quot; : value + &quot;&quot;;" severity="W" />
+		<issue line="4132" char="18" reason="Use &apos;===&apos; to compare with &apos;null&apos;." evidence="      return ret == null ?" severity="W" />
+		<issue line="4261" char="27" reason="Expected an assignment or function call and instead saw an expression." evidence="        parent.parentNode.selectedIndex;" severity="W" />
+		<issue line="4554" char="17" reason="Use &apos;===&apos; to compare with &apos;null&apos;." evidence="    data = data == null ?" severity="W" />
+		<issue line="4752" char="24" reason="Use &apos;===&apos; to compare with &apos;null&apos;." evidence="      if ( event.which == null ) {" severity="W" />
+		<issue line="4753" char="41" reason="Use &apos;!==&apos; to compare with &apos;null&apos;." evidence="        event.which = original.charCode != null ? original.charCode : original.keyCode;" severity="W" />
+		<issue line="4767" char="24" reason="Use &apos;===&apos; to compare with &apos;null&apos;." evidence="      if ( event.pageX == null &amp;&amp; original.clientX != null ) {" severity="W" />
+		<issue line="4767" char="52" reason="Use &apos;!==&apos; to compare with &apos;null&apos;." evidence="      if ( event.pageX == null &amp;&amp; original.clientX != null ) {" severity="W" />
+		<issue line="5046" char="15" reason="Use &apos;===&apos; to compare with &apos;null&apos;." evidence="    if ( data == null &amp;&amp; fn == null ) {" severity="W" />
+		<issue line="5046" char="29" reason="Use &apos;===&apos; to compare with &apos;null&apos;." evidence="    if ( data == null &amp;&amp; fn == null ) {" severity="W" />
+		<issue line="5050" char="20" reason="Use &apos;===&apos; to compare with &apos;null&apos;." evidence="    } else if ( fn == null ) {" severity="W" />
+		<issue line="5262" char="31" reason="Use &apos;===&apos; to compare with &apos;null&apos;." evidence="    return this.add( selector == null ?" severity="W" />
+		<issue line="5492" char="31" reason="Use &apos;!==&apos; to compare with &apos;null&apos;." evidence="    for ( ; (elem = elems[i]) != null; i++ ) {" severity="W" />
+		<issue line="5512" char="30" reason="Use &apos;!==&apos; to compare with &apos;null&apos;." evidence="    for ( ; (elem = this[i]) != null; i++ ) {" severity="W" />
+		<issue line="5512" char="30" reason="Too many errors. (62% scanned)." evidence="" severity="E" />
+	</file>
+</jslint>
