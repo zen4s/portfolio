@@ -15,7 +15,3 @@
     "gulp-uglify": "^1.2.0"
   }
 }
-
-
-
-#npm install gulp-jshint gulp-less gulp-concat gulp-rename gulp-log-capture --save-dev 

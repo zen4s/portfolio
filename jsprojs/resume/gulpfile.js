@@ -19,3 +19,4 @@ gulp.task("default", function() {
 #Converts js file and make it compressed by removing all white space 
 	gulp.src("public/js/core.js").pipe(uglify()).pipe(gulp.dest("public/build/js/"));	
 });
+// npm install gulp-jshint gulp-less gulp-concat gulp-rename gulp-log-capture --save-dev 
