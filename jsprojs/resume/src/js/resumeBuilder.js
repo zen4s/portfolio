@@ -4,7 +4,7 @@ var bio  = {
         "role" : "Program Manager",
         "contacts" : {
             "mobile" : "818.319.6446",
-            "city" : "Los Angles",
+            "location" : "Los Angles",
             "email" : "mail@subhra.com",
             "github" : "sjghosh",
             "twitter" : "@sjghosh"
@@ -18,20 +18,26 @@ var education = {
             {
                 "name" : "ST. XAVIERS",
                 "location" : "Hazaribagh",
+                "degree"   : "SC",
                 "majors"   : ["English", "Bengali"],
                 "date"     : "04/31/1997"
+                "url"     : "www.gogle.com"
             },
             {
                 "name" : "DAV PUBLIC SCHOOL",
                 "location" : "Hazaribagh",
+                "degree"   : "SSC",
                 "majors" : ["English", "Computers"],
                 "date" : "04/31/1994"
+                "url"     : "www.yahoo.com"
             },
             {
                 "name" : "Chandrapur Engineering College",
                 "location" : "Chandrapur",
+                "degree"   : "gaduation",
                 "majors"   : ["CT"],
                 "date"     : "04/31/1999"
+                "url"     : "www.msn.com"
             }]
     };
 var work = {
@@ -64,6 +70,21 @@ var projects = {
                 "dates" : "04/13/1997",
                 "description" : "Started as SE TO PROJECT MANAGER",
                 "images" : "images/197x148.gif"
+            }]
+    };
+var OnlineCourse = {
+        "course" : [
+            {
+                "title" : "MS in Mainframe",
+                "dates" : "04/13/1997",
+                "school" : "Aptech",
+                "url" : "www.aptech.com"
+            },
+            {
+                "title" : "MS in Mainframe",
+                "dates" : "04/13/1997",
+                "school" : "Aptech",
+                "url" : "www.aptech.com"
             }]
     };
 
