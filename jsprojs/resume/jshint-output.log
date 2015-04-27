@@ -1,0 +1,59 @@
+51 lint errors found in /Users/zen4s/git/portfolio/jsprojs/resume/public/js/jQuery.js
+  [209,16](W041) Use '===' to compare with 'null'.
+  [313,37](W041) Use '!==' to compare with 'null'.
+  [416,16](W041) Use '!==' to compare with 'null'.
+  [424,14](W041) Use '===' to compare with 'null'.
+  [611,17](W041) Use '===' to compare with 'null'.
+  [618,14](W041) Use '!==' to compare with 'null'.
+  [633,16](W041) Use '===' to compare with 'null'.
+  [688,20](W041) Use '!==' to compare with 'null'.
+  [698,20](W041) Use '!==' to compare with 'null'.
+  [745,18](W041) Use '===' to compare with 'null'.
+  [1027,41](W030) Expected an assignment or function call and instead saw an expression.
+  [1381,14](W069) ['ID'] is better written in dot notation.
+  [1389,16](W069) ['ID'] is better written in dot notation.
+  [1398,21](W069) ['ID'] is better written in dot notation.
+  [1400,16](W069) ['ID'] is better written in dot notation.
+  [1410,12](W069) ['TAG'] is better written in dot notation.
+  [1436,12](W069) ['CLASS'] is better written in dot notation.
+  [1852,21](W069) ['CHILD'] is better written in dot notation.
+  [1902,21](W041) Use '===' to compare with 'null'.
+  [2153,25](W030) Expected an assignment or function call and instead saw an expression.
+  [2175,27](W069) ['empty'] is better written in dot notation.
+  [2198,46](W041) Use '===' to compare with 'null'.
+  [2248,13](W069) ['nth'] is better written in dot notation.
+  [2248,35](W069) ['eq'] is better written in dot notation.
+  [2409,18](W041) Use '!==' to compare with 'null'.
+  [2584,35](W041) Use '!==' to compare with 'null'.
+  [2587,47](W069) ['TAG'] is better written in dot notation.
+  [2589,51](W041) Use '===' to compare with 'null'.
+  [2598,33](W041) Use '!==' to compare with 'null'.
+  [2724,30](W069) ['ID'] is better written in dot notation.
+  [2732,20](W069) ['needsContext'] is better written in dot notation.
+  [2824,39](W041) Use '===' to compare with 'null'.
+  [3086,22](W041) Use '!==' to compare with 'null'.
+  [3269,40](W041) Use '!==' to compare with 'null'.
+  [3978,15](W041) Use '===' to compare with 'null'.
+  [4000,16](W041) Use '===' to compare with 'null'.
+  [4006,24](W041) Use '===' to compare with 'null'.
+  [4132,18](W041) Use '===' to compare with 'null'.
+  [4261,27](W030) Expected an assignment or function call and instead saw an expression.
+  [4554,17](W041) Use '===' to compare with 'null'.
+  [4752,24](W041) Use '===' to compare with 'null'.
+  [4753,41](W041) Use '!==' to compare with 'null'.
+  [4767,24](W041) Use '===' to compare with 'null'.
+  [4767,52](W041) Use '!==' to compare with 'null'.
+  [5046,15](W041) Use '===' to compare with 'null'.
+  [5046,29](W041) Use '===' to compare with 'null'.
+  [5050,20](W041) Use '===' to compare with 'null'.
+  [5262,31](W041) Use '===' to compare with 'null'.
+  [5492,31](W041) Use '!==' to compare with 'null'.
+  [5512,30](W041) Use '!==' to compare with 'null'.
+  [5512,30](E043) Too many errors. (62% scanned).7 lint errors found in /Users/zen4s/git/portfolio/jsprojs/resume/public/js/resumeBuilderX.js
+  [29,10](W120) You might be leaking a variable (s) here.
+  [36,24](W033) Missing semicolon.
+  [41,22](W033) Missing semicolon.
+  [68,10](W069) ['school'] is better written in dot notation.
+  [69,10](W069) ['passout'] is better written in dot notation.
+  [70,10](W069) ['city'] is better written in dot notation.
+  [81,2](W033) Missing semicolon.

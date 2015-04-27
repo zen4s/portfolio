@@ -13,8 +13,6 @@ var bio  = {
 	"welcome" : "Welcome to My Resume. This is my life.",
 	"skills"  : ["Java", "CSS", "HTML", "PMP", "Awesome"]
 };
-
-
 var education = {
 	"schools" : [ 
 	  {
@@ -36,9 +34,7 @@ var education = {
 	  	"date"     : "04/31/1999"
 	  } 
 	]
-}
-
-
+};
 var work = {
 	"jobs" : [ 
 	  {
@@ -56,7 +52,7 @@ var work = {
 	  	"description" : "04/31/1997"	  		  
 	  }
 	]
-}
+};
 
 //Header Class Data
 $("#header").append(HTMLheaderName.replace("%data%", bio.name));
@@ -69,5 +65,9 @@ $("#header").append(HTMLskills.replace("%data%", bio.skills));
 //Main Class Data
 $("#main").append(HTMLworkEmployer.replace("%data%", work.jobs[0].employer));
 $("#main").append(HTMLschoolName.replace("%data%", education.schools[0].name));
+$("#main").append(HTMLschoolName.replace("%data%", education.schools[1].name));
+
+
+
 
 

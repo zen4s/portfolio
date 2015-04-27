@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jslint>
+	<file name="/Users/zen4s/git/portfolio/jsprojs/resume/public/js/jQuery.js">
+		<issue line="30" char="0" reason="Identifier &apos;core_strundefined&apos; is not in camel case." evidence="  core_strundefined = typeof undefined," severity="W" />
+		<issue line="47" char="0" reason="Identifier &apos;core_deletedIds&apos; is not in camel case." evidence="  core_deletedIds = []," severity="W" />
+		<issue line="49" char="0" reason="Identifier &apos;core_version&apos; is not in camel case." evidence="  core_version = &quot;2.0.3&quot;," severity="W" />
+		<issue line="52" char="0" reason="Identifier &apos;core_concat&apos; is not in camel case." evidence="  core_concat = core_deletedIds.concat," severity="W" />
+		<issue line="52" char="0" reason="Identifier &apos;core_deletedIds&apos; is not in camel case." evidence="  core_concat = core_deletedIds.concat," severity="W" />
+		<issue line="53" char="0" reason="Identifier &apos;core_push&apos; is not in camel case." evidence="  core_push = core_deletedIds.push," severity="W" />
+		<issue line="53" char="0" reason="Identifier &apos;core_deletedIds&apos; is not in camel case." evidence="  core_push = core_deletedIds.push," severity="W" />
+		<issue line="54" char="0" reason="Identifier &apos;core_slice&apos; is not in camel case." evidence="  core_slice = core_deletedIds.slice," severity="W" />
+		<issue line="54" char="0" reason="Identifier &apos;core_deletedIds&apos; is not in camel case." evidence="  core_slice = core_deletedIds.slice," severity="W" />
+		<issue line="55" char="0" reason="Identifier &apos;core_indexOf&apos; is not in camel case." evidence="  core_indexOf = core_deletedIds.indexOf," severity="W" />
+		<issue line="55" char="0" reason="Identifier &apos;core_deletedIds&apos; is not in camel case." evidence="  core_indexOf = core_deletedIds.indexOf," severity="W" />
+		<issue line="56" char="0" reason="Identifier &apos;core_toString&apos; is not in camel case." evidence="  core_toString = class2type.toString," severity="W" />
+		<issue line="57" char="0" reason="Identifier &apos;core_hasOwn&apos; is not in camel case." evidence="  core_hasOwn = class2type.hasOwnProperty," severity="W" />
+		<issue line="58" char="0" reason="Identifier &apos;core_trim&apos; is not in camel case." evidence="  core_trim = core_version.trim," severity="W" />
+		<issue line="58" char="0" reason="Identifier &apos;core_version&apos; is not in camel case." evidence="  core_trim = core_version.trim," severity="W" />
+		<issue line="21" char="1" reason="Missing &quot;use strict&quot; statement." evidence="var" severity="E" />
+		<issue line="67" char="0" reason="Identifier &apos;core_pnum&apos; is not in camel case." evidence="  core_pnum = /[+-]?(?:\d*\.|)\d+(?:[eE][+-]?\d+|)/.source," severity="W" />
+		<issue line="70" char="0" reason="Identifier &apos;core_rnotwhite&apos; is not in camel case." evidence="  core_rnotwhite = /\S+/g," severity="W" />
+		<issue line="98" char="0" reason="Identifier &apos;core_version&apos; is not in camel case." evidence="  jquery: core_version," severity="W" />
+		<issue line="203" char="0" reason="Identifier &apos;core_slice&apos; is not in camel case." evidence="    return core_slice.call( this );" severity="W" />
+		<issue line="209" char="16" reason="Use &apos;===&apos; to compare with &apos;null&apos;." evidence="    return num == null ?" severity="W" />
+		<issue line="248" char="0" reason="Identifier &apos;core_slice&apos; is not in camel case." evidence="    return this.pushStack( core_slice.apply( this, arguments ) );" severity="W" />
+		<issue line="277" char="0" reason="Identifier &apos;core_push&apos; is not in camel case." evidence="  push: core_push," severity="W" />
+		<issue line="313" char="37" reason="Use &apos;!==&apos; to compare with &apos;null&apos;." evidence="    if ( (options = arguments[ i ]) != null ) {" severity="W" />
+		<issue line="351" char="0" reason="Identifier &apos;core_version&apos; is not in camel case." evidence="  expando: &quot;jQuery&quot; + ( core_version + Math.random() ).replace( /\D/g, &quot;&quot; )," severity="W" />
+		<issue line="416" char="16" reason="Use &apos;!==&apos; to compare with &apos;null&apos;." evidence="    return obj != null &amp;&amp; obj === obj.window;" severity="W" />
+		<issue line="424" char="14" reason="Use &apos;===&apos; to compare with &apos;null&apos;." evidence="    if ( obj == null ) {" severity="W" />
+		<issue line="429" char="0" reason="Identifier &apos;core_toString&apos; is not in camel case." evidence="      class2type[ core_toString.call(obj) ] || &quot;object&quot; :" severity="W" />
+		<issue line="448" char="0" reason="Identifier &apos;core_hasOwn&apos; is not in camel case." evidence="          !core_hasOwn.call( obj.constructor.prototype, &quot;isPrototypeOf&quot; ) ) {" severity="W" />
+		<issue line="611" char="17" reason="Use &apos;===&apos; to compare with &apos;null&apos;." evidence="    return text == null ? &quot;&quot; : core_trim.call( text );" severity="W" />
+		<issue line="611" char="0" reason="Identifier &apos;core_trim&apos; is not in camel case." evidence="    return text == null ? &quot;&quot; : core_trim.call( text );" severity="W" />
+		<issue line="618" char="14" reason="Use &apos;!==&apos; to compare with &apos;null&apos;." evidence="    if ( arr != null ) {" severity="W" />
+		<issue line="625" char="0" reason="Identifier &apos;core_push&apos; is not in camel case." evidence="        core_push.call( ret, arr );" severity="W" />
+		<issue line="633" char="16" reason="Use &apos;===&apos; to compare with &apos;null&apos;." evidence="    return arr == null ? -1 : core_indexOf.call( arr, elem, i );" severity="W" />
+		<issue line="633" char="0" reason="Identifier &apos;core_indexOf&apos; is not in camel case." evidence="    return arr == null ? -1 : core_indexOf.call( arr, elem, i );" severity="W" />
+		<issue line="688" char="20" reason="Use &apos;!==&apos; to compare with &apos;null&apos;." evidence="        if ( value != null ) {" severity="W" />
+		<issue line="698" char="20" reason="Use &apos;!==&apos; to compare with &apos;null&apos;." evidence="        if ( value != null ) {" severity="W" />
+		<issue line="705" char="0" reason="Identifier &apos;core_concat&apos; is not in camel case." evidence="    return core_concat.apply( [], ret );" severity="W" />
+		<issue line="729" char="0" reason="Identifier &apos;core_slice&apos; is not in camel case." evidence="    args = core_slice.call( arguments, 2 );" severity="W" />
+		<issue line="731" char="0" reason="Identifier &apos;core_slice&apos; is not in camel case." evidence="      return fn.apply( context || this, args.concat( core_slice.call( arguments ) ) );" severity="W" />
+		<issue line="745" char="18" reason="Use &apos;===&apos; to compare with &apos;null&apos;." evidence="      bulk = key == null;" severity="W" />
+		<issue line="918" char="20" reason="Unexpected use of &apos;&lt;&lt;&apos;." evidence="  MAX_NEGATIVE = 1 &lt;&lt; 31," severity="W" />
+		<issue line="924" char="0" reason="Identifier &apos;push_native&apos; is not in camel case." evidence="  push_native = arr.push," severity="W" />
+		<issue line="1016" char="35" reason="Unexpected use of &apos;&gt;&gt;&apos;." evidence="        String.fromCharCode( high &gt;&gt; 10 | 0xD800, high &amp; 0x3FF | 0xDC00 );" severity="W" />
+		<issue line="1016" char="41" reason="Unexpected use of &apos;|&apos;." evidence="        String.fromCharCode( high &gt;&gt; 10 | 0xD800, high &amp; 0x3FF | 0xDC00 );" severity="W" />
+		<issue line="1016" char="56" reason="Unexpected use of &apos;&amp;&apos;." evidence="        String.fromCharCode( high &gt;&gt; 10 | 0xD800, high &amp; 0x3FF | 0xDC00 );" severity="W" />
+		<issue line="1016" char="64" reason="Unexpected use of &apos;|&apos;." evidence="        String.fromCharCode( high &gt;&gt; 10 | 0xD800, high &amp; 0x3FF | 0xDC00 );" severity="W" />
+		<issue line="1027" char="41" reason="Expected an assignment or function call and instead saw an expression." evidence="  arr[ preferredDoc.childNodes.length ].nodeType;" severity="W" />
+		<issue line="1033" char="0" reason="Identifier &apos;push_native&apos; is not in camel case." evidence="      push_native.apply( target, slice.call(els) );" severity="W" />
+		<issue line="1230" char="9" reason="Unexpected use of &apos;~&apos;." evidence="      ( ~b.sourceIndex || MAX_NEGATIVE ) -" severity="W" />
+		<issue line="1230" char="9" reason="Too many errors. (13% scanned)." evidence="" severity="E" />
+	</file>
+</jslint>

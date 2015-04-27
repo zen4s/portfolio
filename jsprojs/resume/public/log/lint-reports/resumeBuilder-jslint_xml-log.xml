@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jslint>
+	<file name="/Users/zen4s/git/portfolio/jsprojs/resume/public/js/resumeBuilder.js">
+		<issue line="58" char="1" reason="&apos;$&apos; is not defined." evidence="$(&quot;#header&quot;).append(HTMLheaderName.replace(&quot;%data%&quot;, bio.name));" severity="W" />
+		<issue line="58" char="21" reason="&apos;HTMLheaderName&apos; is not defined." evidence="$(&quot;#header&quot;).append(HTMLheaderName.replace(&quot;%data%&quot;, bio.name));" severity="W" />
+		<issue line="59" char="1" reason="&apos;$&apos; is not defined." evidence="$(&quot;#header&quot;).append(HTMLheaderRole.replace(&quot;%data%&quot;, bio.role));" severity="W" />
+		<issue line="59" char="21" reason="&apos;HTMLheaderRole&apos; is not defined." evidence="$(&quot;#header&quot;).append(HTMLheaderRole.replace(&quot;%data%&quot;, bio.role));" severity="W" />
+		<issue line="60" char="1" reason="&apos;$&apos; is not defined." evidence="$(&quot;#header&quot;).append(HTMLbioPic.replace(&quot;%data%&quot;, bio.pic));" severity="W" />
+		<issue line="60" char="21" reason="&apos;HTMLbioPic&apos; is not defined." evidence="$(&quot;#header&quot;).append(HTMLbioPic.replace(&quot;%data%&quot;, bio.pic));" severity="W" />
+		<issue line="61" char="1" reason="&apos;$&apos; is not defined." evidence="$(&quot;#header&quot;).append(HTMLwelcomeMsg.replace(&quot;%data%&quot;, bio.welcome));" severity="W" />
+		<issue line="61" char="21" reason="&apos;HTMLwelcomeMsg&apos; is not defined." evidence="$(&quot;#header&quot;).append(HTMLwelcomeMsg.replace(&quot;%data%&quot;, bio.welcome));" severity="W" />
+		<issue line="62" char="1" reason="&apos;$&apos; is not defined." evidence="$(&quot;#header&quot;).append(HTMLlocation.replace(&quot;%data%&quot;, bio.contact));" severity="W" />
+		<issue line="62" char="21" reason="&apos;HTMLlocation&apos; is not defined." evidence="$(&quot;#header&quot;).append(HTMLlocation.replace(&quot;%data%&quot;, bio.contact));" severity="W" />
+		<issue line="63" char="1" reason="&apos;$&apos; is not defined." evidence="$(&quot;#header&quot;).append(HTMLskills.replace(&quot;%data%&quot;, bio.skills));" severity="W" />
+		<issue line="63" char="21" reason="&apos;HTMLskills&apos; is not defined." evidence="$(&quot;#header&quot;).append(HTMLskills.replace(&quot;%data%&quot;, bio.skills));" severity="W" />
+		<issue line="66" char="1" reason="&apos;$&apos; is not defined." evidence="$(&quot;#main&quot;).append(HTMLworkEmployer.replace(&quot;%data%&quot;, work.jobs[0].employer));" severity="W" />
+		<issue line="66" char="19" reason="&apos;HTMLworkEmployer&apos; is not defined." evidence="$(&quot;#main&quot;).append(HTMLworkEmployer.replace(&quot;%data%&quot;, work.jobs[0].employer));" severity="W" />
+		<issue line="67" char="1" reason="&apos;$&apos; is not defined." evidence="$(&quot;#main&quot;).append(HTMLschoolName.replace(&quot;%data%&quot;, education.schools[0].name));" severity="W" />
+		<issue line="67" char="19" reason="&apos;HTMLschoolName&apos; is not defined." evidence="$(&quot;#main&quot;).append(HTMLschoolName.replace(&quot;%data%&quot;, education.schools[0].name));" severity="W" />
+		<issue line="68" char="1" reason="&apos;$&apos; is not defined." evidence="$(&quot;#main&quot;).append(HTMLschoolName.replace(&quot;%data%&quot;, education.schools[1].name));" severity="W" />
+		<issue line="68" char="19" reason="&apos;HTMLschoolName&apos; is not defined." evidence="$(&quot;#main&quot;).append(HTMLschoolName.replace(&quot;%data%&quot;, education.schools[1].name));" severity="W" />
+	</file>
+</jslint>

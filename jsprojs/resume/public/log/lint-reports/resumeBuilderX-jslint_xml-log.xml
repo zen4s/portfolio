@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jslint>
+	<file name="/Users/zen4s/git/portfolio/jsprojs/resume/public/js/resumeBuilderX.js">
+		<issue line="14" char="0" reason="Identifier &apos;speed_of_light&apos; is not in camel case." evidence="var speed_of_light = 299792458;   //meters per second" severity="W" />
+		<issue line="19" char="0" reason="Identifier &apos;speed_of_light&apos; is not in camel case." evidence="var distance = speed_of_light * centimeters * nanosecond;" severity="W" />
+		<issue line="29" char="10" reason="You might be leaking a variable (s) here." evidence="var s2 = s = s[1].toUpperCase() + s.slice(2);" severity="W" />
+		<issue line="36" char="0" reason="Identifier &apos;old_array&apos; is not in camel case." evidence="var old_array = [0,0,7]" severity="W" />
+		<issue line="36" char="24" reason="Missing semicolon." evidence="var old_array = [0,0,7]" severity="W" />
+		<issue line="38" char="0" reason="Identifier &apos;old_array&apos; is not in camel case." evidence="newArray = old_array.slice(0);" severity="W" />
+		<issue line="41" char="22" reason="Missing semicolon." evidence="console.log(newArray) " severity="W" />
+		<issue line="67" char="0" reason="Identifier &apos;edu_short&apos; is not in camel case." evidence="var edu_short = {};" severity="W" />
+		<issue line="68" char="0" reason="Identifier &apos;edu_short&apos; is not in camel case." evidence="edu_short[&quot;school&quot;] = &quot;CEC&quot;;" severity="W" />
+		<issue line="68" char="10" reason="[&apos;school&apos;] is better written in dot notation." evidence="edu_short[&quot;school&quot;] = &quot;CEC&quot;;" severity="W" />
+		<issue line="69" char="0" reason="Identifier &apos;edu_short&apos; is not in camel case." evidence="edu_short[&quot;passout&quot;] = &quot;1994&quot;;" severity="W" />
+		<issue line="69" char="10" reason="[&apos;passout&apos;] is better written in dot notation." evidence="edu_short[&quot;passout&quot;] = &quot;1994&quot;;" severity="W" />
+		<issue line="70" char="0" reason="Identifier &apos;edu_short&apos; is not in camel case." evidence="edu_short[&quot;city&quot;] = &quot;Chandrapur&quot;;" severity="W" />
+		<issue line="70" char="10" reason="[&apos;city&apos;] is better written in dot notation." evidence="edu_short[&quot;city&quot;] = &quot;Chandrapur&quot;;" severity="W" />
+		<issue line="81" char="2" reason="Missing semicolon." evidence="}" severity="W" />
+		<issue line="1" char="21" reason="&apos;HTMLheaderName&apos; is not defined." evidence="var formattedName = HTMLheaderName.replace(&quot;%data%&quot;, &quot;Subhra Ghosh&quot;);" severity="W" />
+		<issue line="2" char="21" reason="&apos;HTMLheaderRole&apos; is not defined." evidence="var formattedRole = HTMLheaderRole.replace(&quot;%data%&quot;, &quot;Program Manager&quot;);" severity="W" />
+		<issue line="4" char="1" reason="&apos;$&apos; is not defined." evidence="$(&quot;#header&quot;).append(formattedRole);" severity="W" />
+		<issue line="5" char="1" reason="&apos;$&apos; is not defined." evidence="$(&quot;#header&quot;).prepend(formattedName);" severity="W" />
+		<issue line="11" char="1" reason="&apos;$&apos; is not defined." evidence="$(&quot;#main&quot;).append(&quot;Speed of Light = &quot;);" severity="W" />
+		<issue line="21" char="1" reason="&apos;$&apos; is not defined." evidence="$(&quot;#main&quot;).append(distance);" severity="W" />
+		<issue line="22" char="1" reason="&apos;$&apos; is not defined." evidence="$(&quot;#main&quot;).append(&quot; nanosecond/cm. &quot;);" severity="W" />
+		<issue line="23" char="1" reason="&apos;$&apos; is not defined." evidence="$(&quot;#main&quot;).append(funThoughts);" severity="W" />
+		<issue line="84" char="1" reason="&apos;$&apos; is not defined." evidence="$(&quot;#header&quot;).append(HTMLheaderName.replace(&quot;%data%&quot;, bio.name));" severity="W" />
+		<issue line="84" char="21" reason="&apos;HTMLheaderName&apos; is not defined." evidence="$(&quot;#header&quot;).append(HTMLheaderName.replace(&quot;%data%&quot;, bio.name));" severity="W" />
+		<issue line="84" char="54" reason="&apos;bio&apos; is not defined." evidence="$(&quot;#header&quot;).append(HTMLheaderName.replace(&quot;%data%&quot;, bio.name));" severity="W" />
+		<issue line="85" char="1" reason="&apos;$&apos; is not defined." evidence="$(&quot;#header&quot;).append(HTMLheaderRole.replace(&quot;%data%&quot;, bio.role));" severity="W" />
+		<issue line="85" char="21" reason="&apos;HTMLheaderRole&apos; is not defined." evidence="$(&quot;#header&quot;).append(HTMLheaderRole.replace(&quot;%data%&quot;, bio.role));" severity="W" />
+		<issue line="85" char="54" reason="&apos;bio&apos; is not defined." evidence="$(&quot;#header&quot;).append(HTMLheaderRole.replace(&quot;%data%&quot;, bio.role));" severity="W" />
+		<issue line="86" char="1" reason="&apos;$&apos; is not defined." evidence="$(&quot;#header&quot;).append(HTMLbioPic.replace(&quot;%data%&quot;, bio.pic));" severity="W" />
+		<issue line="86" char="21" reason="&apos;HTMLbioPic&apos; is not defined." evidence="$(&quot;#header&quot;).append(HTMLbioPic.replace(&quot;%data%&quot;, bio.pic));" severity="W" />
+		<issue line="86" char="50" reason="&apos;bio&apos; is not defined." evidence="$(&quot;#header&quot;).append(HTMLbioPic.replace(&quot;%data%&quot;, bio.pic));" severity="W" />
+		<issue line="87" char="1" reason="&apos;$&apos; is not defined." evidence="$(&quot;#header&quot;).append(HTMLwelcomeMsg.replace(&quot;%data%&quot;, bio.welcome));" severity="W" />
+		<issue line="87" char="21" reason="&apos;HTMLwelcomeMsg&apos; is not defined." evidence="$(&quot;#header&quot;).append(HTMLwelcomeMsg.replace(&quot;%data%&quot;, bio.welcome));" severity="W" />
+		<issue line="87" char="54" reason="&apos;bio&apos; is not defined." evidence="$(&quot;#header&quot;).append(HTMLwelcomeMsg.replace(&quot;%data%&quot;, bio.welcome));" severity="W" />
+		<issue line="88" char="1" reason="&apos;$&apos; is not defined." evidence="$(&quot;#header&quot;).append(HTMLlocation.replace(&quot;%data%&quot;, bio.contact));" severity="W" />
+		<issue line="88" char="21" reason="&apos;HTMLlocation&apos; is not defined." evidence="$(&quot;#header&quot;).append(HTMLlocation.replace(&quot;%data%&quot;, bio.contact));" severity="W" />
+		<issue line="88" char="52" reason="&apos;bio&apos; is not defined." evidence="$(&quot;#header&quot;).append(HTMLlocation.replace(&quot;%data%&quot;, bio.contact));" severity="W" />
+		<issue line="89" char="1" reason="&apos;$&apos; is not defined." evidence="$(&quot;#header&quot;).append(HTMLskills.replace(&quot;%data%&quot;, bio.skills));" severity="W" />
+		<issue line="89" char="21" reason="&apos;HTMLskills&apos; is not defined." evidence="$(&quot;#header&quot;).append(HTMLskills.replace(&quot;%data%&quot;, bio.skills));" severity="W" />
+		<issue line="89" char="50" reason="&apos;bio&apos; is not defined." evidence="$(&quot;#header&quot;).append(HTMLskills.replace(&quot;%data%&quot;, bio.skills));" severity="W" />
+		<issue line="92" char="1" reason="&apos;$&apos; is not defined." evidence="$(&quot;#main&quot;).append(HTMLworkEmployer.replace(&quot;%data%&quot;, work.employer));" severity="W" />
+		<issue line="92" char="19" reason="&apos;HTMLworkEmployer&apos; is not defined." evidence="$(&quot;#main&quot;).append(HTMLworkEmployer.replace(&quot;%data%&quot;, work.employer));" severity="W" />
+		<issue line="93" char="1" reason="&apos;$&apos; is not defined." evidence="$(&quot;#main&quot;).append(HTMLschoolName.replace(&quot;%data%&quot;, education.school));" severity="W" />
+		<issue line="93" char="19" reason="&apos;HTMLschoolName&apos; is not defined." evidence="$(&quot;#main&quot;).append(HTMLschoolName.replace(&quot;%data%&quot;, education.school));" severity="W" />
+		<issue line="93" char="52" reason="&apos;education&apos; is not defined." evidence="$(&quot;#main&quot;).append(HTMLschoolName.replace(&quot;%data%&quot;, education.school));" severity="W" />
+		<issue line="73" char="5" reason="&apos;edu&apos; is defined but never used." evidence="var edu = {" severity="W" />
+	</file>
+</jslint>

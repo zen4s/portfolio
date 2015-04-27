@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jslint>
+	<file name="/Users/zen4s/git/portfolio/jsprojs/resume/public/js/helper.js">
+		<issue line="66" char="3" reason="Missing &quot;use strict&quot; statement." evidence="  $(&apos;button&apos;).click(function() {" severity="E" />
+		<issue line="78" char="3" reason="Missing &quot;use strict&quot; statement." evidence="  clickLocations.push(" severity="E" />
+		<issue line="106" char="3" reason="Missing &quot;use strict&quot; statement." evidence="  var locations;" severity="E" />
+		<issue line="154" char="0" reason="Identifier &apos;formatted_address&apos; is not in camel case." evidence="    var name = placeData.formatted_address;   // name of the place from the place service" severity="W" />
+		<issue line="65" char="1" reason="&apos;$&apos; is not defined." evidence="$(document).ready(function() {" severity="W" />
+		<issue line="65" char="3" reason="&apos;document&apos; is not defined." evidence="$(document).ready(function() {" severity="W" />
+		<issue line="66" char="3" reason="&apos;$&apos; is not defined." evidence="  $(&apos;button&apos;).click(function() {" severity="W" />
+		<issue line="67" char="17" reason="&apos;inName&apos; is not defined." evidence="    var iName = inName() || function(){};" severity="W" />
+		<issue line="68" char="5" reason="&apos;$&apos; is not defined." evidence="    $(&apos;#name&apos;).html(iName);  " severity="W" />
+		<issue line="75" char="1" reason="&apos;clickLocations&apos; is not defined." evidence="clickLocations = [];" severity="W" />
+		<issue line="78" char="3" reason="&apos;clickLocations&apos; is not defined." evidence="  clickLocations.push(" severity="W" />
+		<issue line="87" char="1" reason="&apos;$&apos; is not defined." evidence="$(document).click(function(loc) {" severity="W" />
+		<issue line="87" char="3" reason="&apos;document&apos; is not defined." evidence="$(document).click(function(loc) {" severity="W" />
+		<issue line="114" char="13" reason="&apos;google&apos; is not defined." evidence="  map = new google.maps.Map(document.querySelector(&apos;#map&apos;), mapOptions);" severity="W" />
+		<issue line="114" char="29" reason="&apos;document&apos; is not defined." evidence="  map = new google.maps.Map(document.querySelector(&apos;#map&apos;), mapOptions);" severity="W" />
+		<issue line="127" char="20" reason="&apos;bio&apos; is not defined." evidence="    locations.push(bio.contacts.location);" severity="W" />
+		<issue line="131" char="24" reason="&apos;education&apos; is not defined." evidence="    for (var school in education.schools) {" severity="W" />
+		<issue line="132" char="22" reason="&apos;education&apos; is not defined." evidence="      locations.push(education.schools[school].location);" severity="W" />
+		<issue line="137" char="21" reason="&apos;work&apos; is not defined." evidence="    for (var job in work.jobs) {" severity="W" />
+		<issue line="138" char="22" reason="&apos;work&apos; is not defined." evidence="      locations.push(work.jobs[job].location);" severity="W" />
+		<issue line="155" char="18" reason="&apos;window&apos; is not defined." evidence="    var bounds = window.mapBounds;            // current boundaries of the map window" severity="W" />
+		<issue line="158" char="22" reason="&apos;google&apos; is not defined." evidence="    var marker = new google.maps.Marker({" severity="W" />
+		<issue line="167" char="26" reason="&apos;google&apos; is not defined." evidence="    var infoWindow = new google.maps.InfoWindow({" severity="W" />
+		<issue line="172" char="5" reason="&apos;google&apos; is not defined." evidence="    google.maps.event.addListener(marker, &apos;click&apos;, function() {" severity="W" />
+		<issue line="178" char="23" reason="&apos;google&apos; is not defined." evidence="    bounds.extend(new google.maps.LatLng(lat, lon));" severity="W" />
+		<issue line="190" char="19" reason="&apos;google&apos; is not defined." evidence="    if (status == google.maps.places.PlacesServiceStatus.OK) {" severity="W" />
+		<issue line="203" char="23" reason="&apos;google&apos; is not defined." evidence="    var service = new google.maps.places.PlacesService(map);" severity="W" />
+		<issue line="220" char="3" reason="&apos;window&apos; is not defined." evidence="  window.mapBounds = new google.maps.LatLngBounds();" severity="W" />
+		<issue line="220" char="26" reason="&apos;google&apos; is not defined." evidence="  window.mapBounds = new google.maps.LatLngBounds();" severity="W" />
+		<issue line="15" char="5" reason="&apos;HTMLheaderName&apos; is defined but never used." evidence="var HTMLheaderName = &apos;&lt;h1 id=&quot;name&quot;&gt;%data%&lt;/h1&gt;&apos;;" severity="W" />
+		<issue line="16" char="5" reason="&apos;HTMLheaderRole&apos; is defined but never used." evidence="var HTMLheaderRole = &apos;&lt;span&gt;%data%&lt;/span&gt;&lt;hr/&gt;&apos;;" severity="W" />
+		<issue line="18" char="5" reason="&apos;HTMLcontactGeneric&apos; is defined but never used." evidence="var HTMLcontactGeneric = &apos;&lt;li class=&quot;flex-item&quot;&gt;&lt;span class=&quot;orange-text&quot;&gt;%contact%&lt;/span&gt;&lt;span class=&quot;white-text&quot;&gt;%data%&lt;/span&gt;&lt;/li&gt;&apos;;" severity="W" />
+		<issue line="19" char="5" reason="&apos;HTMLmobile&apos; is defined but never used." evidence="var HTMLmobile = &apos;&lt;li class=&quot;flex-item&quot;&gt;&lt;span class=&quot;orange-text&quot;&gt;mobile&lt;/span&gt;&lt;span class=&quot;white-text&quot;&gt;%data%&lt;/span&gt;&lt;/li&gt;&apos;;" severity="W" />
+		<issue line="20" char="5" reason="&apos;HTMLemail&apos; is defined but never used." evidence="var HTMLemail = &apos;&lt;li class=&quot;flex-item&quot;&gt;&lt;span class=&quot;orange-text&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;white-text&quot;&gt;%data%&lt;/span&gt;&lt;/li&gt;&apos;;" severity="W" />
+		<issue line="21" char="5" reason="&apos;HTMLtwitter&apos; is defined but never used." evidence="var HTMLtwitter = &apos;&lt;li class=&quot;flex-item&quot;&gt;&lt;span class=&quot;orange-text&quot;&gt;twitter&lt;/span&gt;&lt;span class=&quot;white-text&quot;&gt;%data%&lt;/span&gt;&lt;/li&gt;&apos;;" severity="W" />
+		<issue line="22" char="5" reason="&apos;HTMLgithub&apos; is defined but never used." evidence="var HTMLgithub = &apos;&lt;li class=&quot;flex-item&quot;&gt;&lt;span class=&quot;orange-text&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;white-text&quot;&gt;%data%&lt;/span&gt;&lt;/li&gt;&apos;;" severity="W" />
+		<issue line="23" char="5" reason="&apos;HTMLblog&apos; is defined but never used." evidence="var HTMLblog = &apos;&lt;li class=&quot;flex-item&quot;&gt;&lt;span class=&quot;orange-text&quot;&gt;blog&lt;/span&gt;&lt;span class=&quot;white-text&quot;&gt;%data%&lt;/span&gt;&lt;/li&gt;&apos;;" severity="W" />
+		<issue line="24" char="5" reason="&apos;HTMLlocation&apos; is defined but never used." evidence="var HTMLlocation = &apos;&lt;li class=&quot;flex-item&quot;&gt;&lt;span class=&quot;orange-text&quot;&gt;location&lt;/span&gt;&lt;span class=&quot;white-text&quot;&gt;%data%&lt;/span&gt;&lt;/li&gt;&apos;;" severity="W" />
+		<issue line="26" char="5" reason="&apos;HTMLbioPic&apos; is defined but never used." evidence="var HTMLbioPic = &apos;&lt;img src=&quot;%data%&quot; class=&quot;biopic&quot;&gt;&apos;;" severity="W" />
+		<issue line="27" char="5" reason="&apos;HTMLwelcomeMsg&apos; is defined but never used." evidence="var HTMLwelcomeMsg = &apos;&lt;span class=&quot;welcome-message&quot;&gt;%data%&lt;/span&gt;&apos;;" severity="W" />
+		<issue line="29" char="5" reason="&apos;HTMLskillsStart&apos; is defined but never used." evidence="var HTMLskillsStart = &apos;&lt;h3 id=&quot;skillsH3&quot;&gt;Skills at a Glance:&lt;/h3&gt;&lt;ul id=&quot;skills&quot; class=&quot;flex-box&quot;&gt;&lt;/ul&gt;&apos;;" severity="W" />
+		<issue line="30" char="5" reason="&apos;HTMLskills&apos; is defined but never used." evidence="var HTMLskills = &apos;&lt;li class=&quot;flex-item&quot;&gt;&lt;span class=&quot;white-text&quot;&gt;%data%&lt;/span&gt;&lt;/li&gt;&apos;;" severity="W" />
+		<issue line="32" char="5" reason="&apos;HTMLworkStart&apos; is defined but never used." evidence="var HTMLworkStart = &apos;&lt;div class=&quot;work-entry&quot;&gt;&lt;/div&gt;&apos;;" severity="W" />
+		<issue line="33" char="5" reason="&apos;HTMLworkEmployer&apos; is defined but never used." evidence="var HTMLworkEmployer = &apos;&lt;a href=&quot;#&quot;&gt;%data%&apos;;" severity="W" />
+		<issue line="34" char="5" reason="&apos;HTMLworkTitle&apos; is defined but never used." evidence="var HTMLworkTitle = &apos; - %data%&lt;/a&gt;&apos;;" severity="W" />
+		<issue line="35" char="5" reason="&apos;HTMLworkDates&apos; is defined but never used." evidence="var HTMLworkDates = &apos;&lt;div class=&quot;date-text&quot;&gt;%data%&lt;/div&gt;&apos;;" severity="W" />
+		<issue line="36" char="5" reason="&apos;HTMLworkLocation&apos; is defined but never used." evidence="var HTMLworkLocation = &apos;&lt;div class=&quot;location-text&quot;&gt;%data%&lt;/div&gt;&apos;;" severity="W" />
+		<issue line="37" char="5" reason="&apos;HTMLworkDescription&apos; is defined but never used." evidence="var HTMLworkDescription = &apos;&lt;p&gt;&lt;br&gt;%data%&lt;/p&gt;&apos;;" severity="W" />
+		<issue line="39" char="5" reason="&apos;HTMLprojectStart&apos; is defined but never used." evidence="var HTMLprojectStart = &apos;&lt;div class=&quot;project-entry&quot;&gt;&lt;/div&gt;&apos;;" severity="W" />
+		<issue line="40" char="5" reason="&apos;HTMLprojectTitle&apos; is defined but never used." evidence="var HTMLprojectTitle = &apos;&lt;a href=&quot;#&quot;&gt;%data%&lt;/a&gt;&apos;;" severity="W" />
+		<issue line="40" char="5" reason="Too many errors. (16% scanned)." evidence="" severity="E" />
+	</file>
+</jslint>
