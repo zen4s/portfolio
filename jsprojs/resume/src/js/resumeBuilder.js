@@ -20,7 +20,7 @@ var education = {
                 "location" : "Hazaribagh",
                 "degree"   : "SC",
                 "majors"   : ["English", "Bengali"],
-                "date"     : "04/31/1997"
+                "date"     : "04/31/1997",
                 "url"     : "www.gogle.com"
             },
             {
@@ -28,7 +28,7 @@ var education = {
                 "location" : "Hazaribagh",
                 "degree"   : "SSC",
                 "majors" : ["English", "Computers"],
-                "date" : "04/31/1994"
+                "date" : "04/31/1994",
                 "url"     : "www.yahoo.com"
             },
             {
@@ -36,7 +36,7 @@ var education = {
                 "location" : "Chandrapur",
                 "degree"   : "gaduation",
                 "majors"   : ["CT"],
-                "date"     : "04/31/1999"
+                "date"     : "04/31/1999",
                 "url"     : "www.msn.com"
             }]
     };
@@ -95,7 +95,6 @@ $("#header").append(HTMLbioPic.replace("%data%", bio.pic));
 $("#header").append(HTMLwelcomeMsg.replace("%data%", bio.welcome));
 $("#header").append(HTMLlocation.replace("%data%", bio.contact));
 $("#header").append(HTMLskills.replace("%data%", bio.skills));
-
 //Main Class Data
 $("#main").append(HTMLworkEmployer.replace("%data%", work.jobs[0].employer));
 $("#main").append(HTMLschoolName.replace("%data%", education.schools[0].name));
@@ -103,8 +102,4 @@ $("#main").append(HTMLschoolName.replace("%data%", education.schools[0].location
 $("#main").append(HTMLschoolName.replace("%data%", education.schools[1].name));
 $("#main").append(HTMLschoolName.replace("%data%", education.schools[1].location));
 $("#main").append(HTMLworkEmployer.replace("%data%", work.jobs[0].employer));
-
-
-
-
-
+$("#main").append(HTMLschoolName.replace("%data%", OnlineCourse.course[0].title));

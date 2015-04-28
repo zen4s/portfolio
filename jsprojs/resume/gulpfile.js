@@ -8,10 +8,10 @@ var browserSync = require('browser-sync');
 var changed = require('gulp-changed');
 var imagemin = require('gulp-imagemin');
 var minifyHTML = require('gulp-minify-html');
-var stripDebug = require('gulp-strip-debug');
+//var stripDebug = require('gulp-strip-debug');
 var autoprefix = require('gulp-autoprefixer');
 var minifyCSS = require('gulp-minify-css');
-var jshintXMLReporter = require('gulp-jshint-xml-file-reporter');
+//var jshintXMLReporter = require('gulp-jshint-xml-file-reporter');
 var wwwSrc = './src/';
 var wwwDst = './build/dev/';
 
@@ -116,3 +116,5 @@ gulp.task('styles', function() {
 //npm install gulp-strip-debug --save-dev
 //npm install gulp-jshint-xml-file-reporter --save-dev
 //npm install gulp-jshint-file-reporter --save-dev
+//bower install jquery angular backbone --save
+//gem install compass susy breakpoint
