@@ -87,6 +87,8 @@ var OnlineCourse = {
                 "url" : "www.aptech.com"
             }]
     };
+/* Below is jslint directive to supress unwanted warnings */ 
+/*jslint browser: true, debug: true, vars: true, devel: true, jquery: true, global: true, module: true, window: true */
 
 //Header Class Data
 $("#header").append(HTMLheaderName.replace("%data%", bio.name));
@@ -103,3 +105,7 @@ $("#main").append(HTMLschoolName.replace("%data%", education.schools[1].name));
 $("#main").append(HTMLschoolName.replace("%data%", education.schools[1].location));
 $("#main").append(HTMLworkEmployer.replace("%data%", work.jobs[0].employer));
 $("#main").append(HTMLschoolName.replace("%data%", OnlineCourse.course[0].title));
+$("#main").append(HTMLschoolName.replace("%data%", OnlineCourse.course[0].title));
+$("#main").append(HTMLschoolName.replace("%data%", OnlineCourse.course[0].title));
+$("#main").append(HTMLschoolName.replace("%data%", OnlineCourse.course[0].title));
+

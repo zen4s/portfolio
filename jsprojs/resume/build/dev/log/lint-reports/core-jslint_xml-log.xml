@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <jslint>
 	<file name="/Users/zen4s/git/portfolio/jsprojs/resume/src/js/core.js">
+		<issue line="0" char="0" reason="Bad option: &apos;vars&apos;." evidence="" severity="E" />
 		<issue line="5" char="5" reason="&apos;test&apos; is defined but never used." evidence="var test = &apos;Hello&apos;;" severity="W" />
 	</file>
 </jslint>

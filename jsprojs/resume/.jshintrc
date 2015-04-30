@@ -9,5 +9,13 @@
 	"noarg": true,
 	"undef": true,
 	"unused": "vars",
-	"strict": true
+	"strict": true,
+    "indent":4,
+    "white":true,
+    "browser":true,
+    "debug":true,
+    "vars":true,
+    "devel":true,
+    "jquery":true,
+    "maxerr":30
 }

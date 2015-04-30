@@ -11,7 +11,8 @@
     /*
         an opening and closing set of slash asterisks for block comments.
     */
-
+   /* Below is jslint directive to supress unwanted warnings */ 
+   /*jslint browser: true, debug: true, vars: true, devel: true, jquery: true */
 
     if(document.getElementsByClassName('flex-item').length === 0) {
       document.getElementById('topContacts').style.display = 'none';
@@ -26,7 +27,7 @@
       document.getElementById('projects').style.display = 'none';
     }
     if(document.getElementsByClassName('education-entry').length === 0) {
-      document.getElementById('education').style.display = 'none';
+      document.getElementById('education').style.backgroundColor = 'green';
     }
     if(document.getElementsByClassName('flex-item').length === 0) {
       document.getElementById('letsConnect').style.display = 'none';

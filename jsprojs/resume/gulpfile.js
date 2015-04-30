@@ -59,7 +59,7 @@ gulp.task('styles-watch', browserSync.reload);
 gulp.task('jshint', function() {
 //Shows the output of jshint on lof files and displays it on console
   gulp.src(wwwSrc + 'js/*.js')
-    .pipe(jshint())
+    .pipe(jshint('.jshintrc'))
     .pipe(logCapture.start(console, 'log'))
     .pipe(jshint.reporter('jslint_xml'))
     .pipe(logCapture.stop('xml'))
